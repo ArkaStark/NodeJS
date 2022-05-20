@@ -1,0 +1,19 @@
+GLOBALS - NO WINDOW!
+
+__dirname   -   path to correct directory
+__filename  -   file name
+require     -   function to use modules. (Common JS) 
+module      -   info about current module (file)
+process     -   info about enviroment where module is being executed 
+
+
+npm - global command, comes with node
+npm --version
+
+global dependency - use it in any project
+sudo npm install -g <packagename>
+
+local dependency - use it only in this particular project
+npm i <packagename>
+
+package.json - manifest file (stores important info about project)
